@@ -1,25 +1,40 @@
 $(document).ready(function(){
 
+       // owl carousel 
+
+       $("#owl-example").owlCarousel({
+        // Most important owl features
+        items : 4,
+        pagination : true,
+        paginationSpeed : 1000,
+        navigation : true,
+        navigationText : ["","<i class='fa fa-angle-right'></i>"],
+        slideSpeed : 800,
+     });
+
+
     // navbar jQuery functionalty
 
     $("#navigation").sticky({
-        topSpacing : 75,
-    });
+		topSpacing : 75,
+	});
 
-    $('#nav').onePageNav({
-        currentClass: 'current',
+	$('#nav').onePageNav({
+		currentClass: 'current',
 		changeHash: false,
 		scrollSpeed: 15000,
 		scrollThreshold: 0.5,
 		filter: '',
 		easing: 'easeInOutExpo'
+	});
+
+     $('#top-nav').onePageNav({
+         currentClass: 'active',
+         changeHash: true,
+         scrollSpeed: 1200
     });
 
-    $('#top-nav').onePageNav({
-        currentClass: 'active',
-        changeHash: true,
-        scrollSpeed: 1200
-   });
 
+ 
    
 });
