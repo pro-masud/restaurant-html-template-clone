@@ -11,6 +11,47 @@
     padding-left: 25px;
   }
 
+
+  /* blog start now */
+
+  #blog .block {
+    text-align: center;
+  }
+  #blog .block ul {
+    padding-bottom: 40px;
+  }
+  #blog .block ul li {
+    width: 100%;
+  }
+  #blog .block ul li h3 {
+    padding: 0px 0px 30px;
+  }
+  #blog .block ul li .blog-img {
+    width: 50%;
+  }
+  #blog .block ul li .blog-img img {
+    width: 100%;
+  }
+  #blog .block ul li .blog-img-2 {
+    width: 50%;
+  }
+  #blog .block ul li .blog-img-2 img {
+    width: 100%;
+  }
+  #blog .block ul li .content-left {
+    padding: 40px 20px 0;
+  }
+  #blog .block ul li .content-right {
+    padding: 40px 20px 0;
+  }
+  #blog .block .btn-more-info {
+    float: none;
+    margin-top: 30px;
+  }
+  #blog .block .btn-more-info:hover {
+    border-radius: 10px;
+  }
+
   /* pricing start */
 
   #price .block p {
@@ -18,6 +59,29 @@
   }
   #price .block .pricing-list {
     text-align: left;
+  }
+
+
+  /* contact us section */
+
+  #contact-us {
+    padding: 60px 0 0;
+  }
+  #contact-us .block {
+    text-align: center;
+  }
+  #contact-us .block .title {
+    text-align: left;
+  }
+  #contact-us .block a {
+    padding: 15px 80px;
+    float: inherit;
+  }
+
+
+  #footer-bottom .block p {
+    text-align: center;
+    padding-top: 0px;
   }
 
 }
@@ -79,6 +143,54 @@
     font-size: 28px;
   }
 
+  /* blog start  */
+
+  #blog .block ul {
+    padding-bottom: 30px;
+  }
+  #blog .block ul li {
+    float: none;
+    width: 100%;
+    height: 100%;
+  }
+  #blog .block ul li .blog-img {
+    float: none;
+    width: 100%;
+  }
+  #blog .block ul li .blog-img img {
+    width: 100%;
+  }
+  #blog .block ul li .blog-img-2 {
+    float: none;
+    width: 100%;
+  }
+  #blog .block ul li .blog-img-2 img {
+    width: 100%;
+  }
+  #blog .block ul li .content-right {
+    float: none;
+    width: 100%;
+    padding: 20px 35px;
+  }
+  #blog .block ul li .content-right:after {
+    display: none;
+  }
+  #blog .block ul li .content-left {
+    float: none;
+    width: 100%;
+    padding: 20px 35px;
+  }
+  #blog .block ul li .content-left:after {
+    display: none;
+  }
+  #blog .block .btn-more-info {
+    float: none;
+    margin-top: 30px;
+    padding: 28px 85px;
+  }
+  #blog .block .btn-more-info:hover {
+    border-radius: 10px;
+  }
 
   /* pricing start */
 
@@ -132,4 +244,47 @@
     display: block;
     margin-top: 20px;
   }
+
+
+  /* contact us start */
+
+  #contact-us {
+    padding: 60px 0 0;
+  }
+  #contact-us .block a {
+    padding: 20px 80px;
+    width: 100%;
+    float: inherit;
+  }
+
+
+
+
+  /* start footer section */
+
+  #footer .block {
+    padding-bottom: 50px;
+  }
+  #footer .block .info ul li {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #footer .block .portfolio img {
+    margin-top: 20px;
+  }
+  #footer .block .portfolio ul li {
+    margin-right: 0px;
+    display: inline-block;
+  }
+
+
+  /* footer bottom start */
+
+  #footer-bottom .block p {
+    text-align: center;
+    padding-top: 0px;
+  }
+
+
+
 }
